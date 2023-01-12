@@ -60,7 +60,6 @@ export default function Task() {
 
   const editTask = (name: string) => {
     if (!currentTasks) return;
-
     setCurrentTasks((prev) => {
       if (prev) return { ...prev, name };
       return null;

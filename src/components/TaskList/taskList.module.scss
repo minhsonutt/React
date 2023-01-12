@@ -1,43 +1,43 @@
 .title {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .task {
-    display: flex;
-    align-items: center;
-    &:not(:last-child) {
-        margin-bottom: 15px;  
-    }
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .taskName {
-    font-size: 14px;
-    margin-left: 10px;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .taskActions {
-    display: flex;
-    margin-left: auto;
-    .taskBtn:last-child{
-        margin-left: 10px;
-    }
+  display: flex;
+  margin-left: auto;
+  .taskBtn:last-child {
+    margin-left: 10px;
+  }
 }
 
 .taskNameDone {
-    opacity: .5;
-    text-decoration: line-through;
+  opacity: 0.5;
+  text-decoration: line-through;
 }
 
 .taskBtn {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid;
-    &.edit {
-        color: #78c5c8;
-        background-color: #fff;
-    }
-    &.remove {
-        color: #fff;
-        background-color: #ea4c89;
-    }
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  &.edit {
+    color: #78c5c8;
+    background-color: #fff;
+  }
+  &.remove {
+    color: #fff;
+    background-color: #ea4c89;
+  }
 }
